@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+a:link, a:visited {
+background-color: #f44336;
+color: white;
+padding: 14px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;}
+a:hover, a:active{
+background-color: red;}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 100%;
+  height: 100vh;
+}
+
+.container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+  width: 200px;
+  border-radius: 5px;
+  border: none;
+}
+</style>
+</head>
+<body><div class="container">
+  <img src="file:///C:/Users/CLICK/Desktop/HTML%20Learning/images/maxresdefault.jpg" alt="Snow Image">
+  <div class="centered">
+  <form action="/action_page.php">
+    <label for="fname" style="color: white;">Email ID:</label>
+    <input type="email" id="fname" name="fname"><br><br>
+    
+    <label for="lname" style="color: white;">Password:</label>
+    <input type="password" id="lname" name="lname"><br><br>
+    </form>
+    <h1><a href="file:///C:/Users/CLICK/Desktop/HTML%20Learning/project/OG.html" target="_blank">Submit</a></h1>
+  </div>
+</div>
+
+</body>
+</html>
